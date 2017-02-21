@@ -3,14 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
-    <item android:title="@string/item_add"
+    <item
         android:id="@+id/item_add"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_add"
+        android:title="@string/item_add"
         app:showAsAction="always" />
-    <item android:title="@string/item_like"
+    <item
         android:id="@+id/item_like"
-        android:icon="@mipmap/ic_launcher" />
-    <item android:title="@string/item_dislike"
+        android:icon="@drawable/ic_favorite"
+        android:title="@string/item_like"
+        app:showAsAction="always" />
+    <item
         android:id="@+id/item_dislike"
-        android:icon="@mipmap/ic_launcher" />
+        android:icon="@drawable/ic_unfavorite"
+        android:title="@string/item_dislike"
+        app:showAsAction="ifRoom" />
 </menu>
